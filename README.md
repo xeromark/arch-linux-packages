@@ -4,7 +4,7 @@ Una lista de paquetes que uso para mi sistema Arch Linux, pensada para respaldar
 
 ---
 
-## 📤 Exportar paquetes
+## Exportar paquetes
 
 Para generar o actualizar la lista con todos los paquetes instalados explícitamente en el sistema:
 
@@ -18,7 +18,7 @@ pacman -Qqe > pkglist.txt
 
 ---
 
-## 📥 Instalar paquetes
+## Instalar paquetes
 
 Para restaurar el entorno en un sistema limpio o sincronizar la lista:
 
@@ -30,7 +30,7 @@ paru -S --needed - < pkglist.txt
 
 ---
 
-## 🧹 Mantenimiento
+## Mantenimiento
 
 **Limpiar paquetes huérfanos (dependencias que ya no se usan):**
 
