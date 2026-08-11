@@ -23,7 +23,7 @@ pacman -Qqe > pkglist.txt
 Para restaurar el entorno en un sistema limpio o sincronizar la lista:
 
 ```bash
-paru -S --needed - < pkglist.txt
+sudo pacman -S --needed - < pkglist.txt
 ```
 
 *(El flag `--needed` evita reinstalar paquetes que ya se encuentren presentes en el sistema).*
