@@ -27,6 +27,8 @@ sudo pacman -S --needed - < pkglist.txt
 ```
 
 *(El flag `--needed` evita reinstalar paquetes que ya se encuentren presentes en el sistema).*
+*Reemplaza sudo pacman por paru o yay en caso de tengas paquetes que los requieran*
+
 
 ---
 
